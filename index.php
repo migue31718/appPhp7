@@ -27,7 +27,7 @@
     <header id="gridHeader">
     <h1>Science Technology Engineerig & Mathematics</h1>
     <h2>Resolver problemas de Ciencia e Ingeniería con JS</h2>
-    <h2>Nombre: Miguel angel Popoca  Naves    , No. de control: 17091136</h2>
+    
     <img src="images/fotoSelfie.jpg" alt="su foto">
     </header>
     </section>
