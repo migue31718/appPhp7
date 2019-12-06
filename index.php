@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <script>
         function solucion1(){
-        var masa=0.700;
-        var Volumen = 2.587;
+        var masa=0.7;
+        var Volumen = 0.002587;
         var D=(masa/Volumen)
         var a=Math.round(D *1000)/1000;
         var d=document.getElementById("resultado");
@@ -44,8 +44,8 @@
       </section>
       <section id="datos">
             <h2>Datos:</h2>
-            Masa = 700gr = 0.700kg <br>
-            Volumen = 2,587 cm^3  = 2.587 m^3  <br>
+            Masa = 700gr = 0.7kg <br>
+            Volumen = 2,587 cm^3  = 0.002587 m^3  <br>
             <br>
       </section>
       <section id="formulas">
@@ -57,7 +57,7 @@
       <section id="solucion">
             <h2>Cálculos</h2>
             <p>La densidad en SI(sistema internacional) es:<br>
-                D = (0.700)Kg / (2.587)m^3 <br>
+                D = (0.7)Kg / (0.002587)m^3 <br>
             D = ?
             <br>
             </p>
