@@ -11,24 +11,13 @@
     <link rel="stylesheet" href="css/problema.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script>
-        function solucion1(){
-        var masa=0.7;
-        var Volumen = 0.002587;
-        var D=(masa/Volumen)
-        var a=Math.round(D *1000)/1000;
-        var d=document.getElementById("resultado");
-        d.innerHTML='<h2>Resultado: </h2>  La densidad en SI(sistema internacional) es: </br> D = '+ a +'  Kg/m^3 </br>';
-        }
-    </script>
 </head>
 <body>
     <section id="contenedor">
     <header id="gridHeader">
     <h1>Science Technology Engineerig & Mathematics</h1>
     <h2>Resolver problemas de Ciencia e Ingeniería con JS</h2>
-    <h2>Nombre: Miguel angel Popoca  Naves    , No. de control: 17091136</h2>a con JS</h2>
-    
+    <h2>Nombre: Miguel angel Popoca  Naves    , No. de control: 17091136</h2>
     <img src="images/fotoSelfie.jpg" alt="su foto">
     </header>
     </section>
@@ -40,8 +29,6 @@
             <br>
             calcular la densidad en el sistema internacional de unidades. 
            <br> 
-            
-            
       </section>
       <section id="datos">
             <h2>Datos:</h2>
@@ -59,15 +46,23 @@
             <h2>Cálculos</h2>
             <p>La densidad en SI(sistema internacional) es:<br>
                 D = (0.7)Kg / (0.002587)m^3 <br>
-            D = ?
+               
             <br>
             </p>
-             <button onclick="solucion1()">Presiona para calcular</button>
-             <br>
+            
       </section>
       <section id="resultado">
           <h2>Resultado</h2>
-            
+ 
+          <?php
+        $masa=0.7;
+        $Volumen = 0.002587;
+        $D=($masa/$Volumen);
+        $a=round($D *1000)/1000;
+        print("La densidad en SI(sistema internacional) es: </br> D = $a   Kg/m^3 </br>");
+         ?>
+          
+      <br>
       </section>
     </section>
     <footer id="gridPie">
@@ -75,3 +70,4 @@
     </footer>
 </body>
 </html>
+
